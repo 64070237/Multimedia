@@ -1,15 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
-html {
-  height: 100%;
-  width: 100%;
-}
 body{
   background: -webkit-gradient(linear, left top, left bottom, from(purple), to(orange)) fixed;
   font-family: 'Press Start 2P', cursive;
-  padding: 0;
-  margin: 0;
-  height: 100%;
-  width: 100%;
+  margin:auto;
 }
 #ken{
   margin:10px;
@@ -499,53 +492,9 @@ p{
   border:black solid 2px;
   text-align:center;
   text-decoration: none;
-  padding-top: 10px; 
+  padding-top: 10px;
 }
 #tutorial:hover{
   transform:scale(1.2);
   background: #5fff00;
-}
-.footer {
-   height:30vh;
-   width: 100%;
-   padding: 0;
-   background-color:#000;
-   margin-top: 43%;
-   color:white;
-}
-
-#ftop{
-  height:70%;
-  width:100%;
-  margin: auto;
-  text-align:center;
-}
-#fbuttom{
-  buttom: 0;
-  margin: auto;
-  height: 30%;
-}
-#pbuttom{
-  margin: auto;
-  font-family: 'Kanit', sans-serif;
-  text-align: center;
-}
-#ptext{
-  margin: auto;
-  font-family: 'Kanit', sans-serif;
-  text-align: left;
-  font-size:20px;
-}
-#fleft{
-  word-spacing: 120px;
-  padding-top: 10px;
-  float: left;
-  width:70%;
-  margin: auto;
-}
-#fright{
-  padding-top: 35px;
-  float: right;
-  width:30%;
-  margin: auto;
 }

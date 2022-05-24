@@ -2,12 +2,10 @@ html, body {
   height: 100%;
   width: 100%;
 }
-li.header#spc {
-  float: left;
-  width:40px;
-  height:40px;
-  margin-top:10px;
+body::-webkit-scrollbar {
+    display: none;
 }
+
 /* Header Zone */
 ul.header {
   list-style-type: none;
@@ -19,8 +17,7 @@ ul.header {
   width: 100%;
   top: 0;
   left: 0;
-  z-index:1;
-  
+  z-index: 10;
 }
 
 li.header {
@@ -30,8 +27,6 @@ li.header {
 
 li.header#left {
   float: left;
-  width:50px;
-  height:50px;
 }
 
 li.header a {
@@ -41,6 +36,7 @@ li.header a {
   padding: 20px 0px;
   text-decoration: none;
   width: 150px;
+  font-family: 'Press Start 2P', cursive;
 }
 
 li.header a:hover {
@@ -50,7 +46,10 @@ li.header a:hover {
 li.header a:active {
   color: #0f0;
 }
-
+#headerimg{
+  height: 50px;
+  width: 50px;
+}
 
 
 * {
@@ -266,7 +265,7 @@ html {
 
 .footer {
   height:30vh;
-  margin-top: 5%;
+  margin-top: 0%;
   background: black;
   color:white;
 }
@@ -301,7 +300,7 @@ html {
   margin: auto;
 }
 #fright{
-  padding-top: 35px;
+  padding-top: 25px;
   float: right;
   width:30%;
   margin: auto;
